@@ -23,6 +23,63 @@ ome
 - **Integration**: Currently integrated with **GPT-4o, GPT-4.1, o1, Gemini Pro Vision, Claude 3, Qwen-VL and LLaVa.**
 - **Future Plans**: Support for additional models.
 
+## 📚 Documentation
+
+### [Technical Audit Report](AUDIT.md)
+Comprehensive high-level and low-level audit covering:
+- **Architecture Analysis**: Design patterns, data flow, multi-model integration
+- **Security Assessment**: Identified vulnerabilities and mitigation strategies
+- **Code Quality Review**: Best practices, error handling, testing coverage
+- **Performance Analysis**: Bottlenecks and optimization recommendations
+
+**Key Findings:**
+- ✅ Innovative multi-modal architecture with 9+ AI models
+- ✅ Cross-platform compatibility (macOS, Linux, Windows)
+- ⚠️ **Security Notice**: Research/experimental use only - not production-ready without security hardening
+- 🔍 Detailed security recommendations and roadmap included
+
+### [Use Cases & Scenarios](USE_CASES.md)
+Real-world applications with detailed scenarios:
+1. **Automated Web Research** - Competitive analysis, academic research aggregation
+2. **UI/UX Testing** - E-commerce checkout flows, accessibility audits
+3. **Desktop Task Automation** - Invoice processing, software installation
+4. **Content Creation** - Multi-platform social posting, YouTube uploads
+5. **System Administration** - Database backups, monitoring dashboard checks
+
+Each use case includes:
+- Step-by-step automated workflows
+- Expected results and time savings
+- Best practices and troubleshooting
+- Cost estimates and ROI analysis
+
+---
+
+## ⚠️ Security Notice
+
+**Important:** This framework is designed for **research and experimental use**. Before deploying in any production or sensitive environment, please review the [Security Assessment in AUDIT.md](AUDIT.md#21-security-vulnerabilities).
+
+**Key Security Considerations:**
+- The AI model has unrestricted access to keyboard and mouse control
+- API keys are stored in plaintext `.env` files
+- No built-in safeguards against potentially destructive operations
+- Suitable for trusted, single-user environments only
+
+**Recommended for:**
+✅ Research and experimentation
+✅ Personal automation tasks
+✅ Controlled demo environments
+✅ Educational purposes
+
+**Not recommended for:**
+❌ Production enterprise systems
+❌ Multi-tenant environments
+❌ Processing sensitive/confidential data
+❌ Untrusted user input scenarios
+
+See [AUDIT.md](AUDIT.md) for detailed security analysis and mitigation strategies.
+
+---
+
 ## Demo
 https://github.com/OthersideAI/self-operating-computer/assets/42594239/9e8abc96-c76a-46fb-9b13-03678b3c67e0
 
